@@ -1,0 +1,590 @@
+@media screen and (max-width: 90em) and (min-width: 75em) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 6em;
+    list-style: none;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 6em;
+  }
+
+  .section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin-bottom: 6em;
+  }
+
+  .img-section {
+    padding: 0 6.6em 0;
+  }
+
+  .section-header {
+    padding: 0 6.6em 0;
+  }
+  .profile {
+    display: grid;
+    grid-template-columns: repeat(2, 55fr);
+    gap: 4em;
+  }
+
+  .comment {
+    width: 80%;
+    font-weight: 500;
+  }
+
+  .audience {
+    width: 70%;
+    margin-block: 7em;
+  }
+
+  .profile-img {
+    margin-bottom: 2em;
+  }
+
+  .sec-text {
+    left: 50%;
+  }
+
+  .sec-profile {
+    margin-bottom: 3.4em;
+  }
+  .dp {
+    margin-bottom: 4em;
+  }
+
+  .dp,
+  .display {
+    position: relative;
+  }
+
+  .display {
+    position: absolute;
+    top: 9%;
+    left: 30%;
+  }
+
+  .dp-info {
+    position: absolute;
+    top: 54%;
+    left: 28%;
+  }
+
+  .dp-author {
+    margin-bottom: 1em;
+  }
+  .dp-list {
+    display: flex;
+    gap: 2em;
+  }
+
+  .handle {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 75em) and (min-width: 60em) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin-bottom: 4em;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 4em;
+    list-style: none;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 6em;
+  }
+
+  .section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin-bottom: 6em;
+  }
+
+  .img-section {
+    padding: 0 4.6em 0;
+  }
+
+  .idea {
+    margin-bottom: 8em;
+  }
+
+  .pix {
+    width: 100%;
+  }
+
+  .live {
+    margin-left: 13em;
+    width: 16%;
+  }
+
+  .pladcard {
+    bottom: 27%;
+  }
+
+  .option {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0.76em;
+  }
+
+  .followers {
+    margin: 0;
+  }
+
+  .icon {
+    margin-top: 1em;
+  }
+
+  .profile {
+    display: grid;
+    grid-template-columns: repeat(2, 45fr);
+    gap: 3em;
+  }
+
+  .comment {
+    width: 80%;
+    font-weight: 500;
+  }
+
+  .audience {
+    width: 70%;
+    margin-block: 7em;
+  }
+
+  .profile-img {
+    margin-bottom: 1em;
+  }
+
+  .sec-text {
+    left: 47%;
+  }
+
+  .sec-profile {
+    margin-bottom: 3.1em;
+  }
+
+  .dp {
+    margin-bottom: 4em;
+  }
+
+  .dp,
+  .display {
+    position: relative;
+  }
+
+  .display {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+  }
+
+  .dp-info {
+    position: absolute;
+    top: 46%;
+    left: 28%;
+  }
+
+  .dp-author {
+    margin-bottom: 1em;
+  }
+  .dp-list {
+    display: flex;
+    gap: 2em;
+  }
+
+  .handle {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 60em) and (min-width: 49em) {
+  .html {
+    font-size: 56.5%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin-bottom: 4em;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 4em;
+    list-style: none;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 6em;
+  }
+
+  .tag--header {
+    text-align: center;
+  }
+  .hero img {
+    width: 100%;
+  }
+
+  .section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin-bottom: 6em;
+  }
+
+  .img-section {
+    padding: 0;
+  }
+
+  .idea {
+    margin-bottom: 8em;
+  }
+
+  .pix {
+    width: 100%;
+  }
+
+  .live {
+    margin-left: 10em;
+    width: 16%;
+  }
+
+  .pladcard {
+    bottom: 27%;
+  }
+
+  .option {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0.76em;
+  }
+
+  .followers {
+    margin: 0;
+  }
+
+  .icon {
+    margin-top: 1em;
+  }
+
+  .period {
+    font-size: 1em;
+  }
+  .num {
+    font-size: 0.87em;
+  }
+
+  .idea-container {
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .get-hero {
+    top: 0.5%;
+  }
+
+  .profile-container {
+    padding: 0 2.2em 0;
+  }
+
+  .profile {
+    display: grid;
+    grid-template-columns: repeat(2, 45fr);
+    gap: 3em;
+  }
+
+  .profile-sec {
+    margin-bottom: 6em;
+  }
+
+  .profile-img {
+    margin-bottom: 1em;
+  }
+  .pixz {
+    width: 100%;
+  }
+
+  .profile-text {
+    top: 2%;
+  }
+
+  .authors {
+    margin-bottom: 0.68em;
+  }
+  .head-tag {
+    margin: -3em 0 0 2em;
+  }
+  .comment {
+    font-size: 0.67em;
+    width: 73%;
+    font-weight: 500;
+  }
+
+  .audience {
+    width: 73%;
+    margin-block: 2em;
+  }
+
+  .sub {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  .sec {
+    padding: 0 2.2em 0;
+  }
+
+  .sec-text {
+    left: 50%;
+  }
+
+  .sec-profile {
+    margin-bottom: 0.56em;
+  }
+
+  .dp {
+    padding: 0;
+    margin-bottom: 4em;
+  }
+
+  .png-1 {
+    display: block;
+    margin: auto;
+    padding-bottom: 1em;
+  }
+
+  .display {
+    text-align: center;
+  }
+
+  .dp-author {
+    margin-bottom: 2em;
+  }
+
+  .dp-list {
+    display: flex;
+    gap: 3em;
+    margin-left: 11em;
+  }
+
+  .handle {
+    margin-bottom: 2em;
+  }
+
+  .btn-container {
+    text-align: center;
+  }
+}
+
+/* phones users */
+@media screen and (max-width: 49em) and (min-width: 34em) {
+  /* 550 /780*/
+  * {
+    outline: 4px solid red;
+  }
+
+  .html {
+    font-size: 56.5%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin-bottom: 4em;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 4em;
+    list-style: none;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 6em;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+
+  .section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin-bottom: 6em;
+  }
+
+  .img-section {
+    padding: 0;
+  }
+
+  .idea {
+    margin-bottom: 8em;
+  }
+
+  .pix {
+    width: 100%;
+  }
+
+  .live {
+    margin-left: 9em;
+    width: 16%;
+  }
+
+  .pladcard {
+    bottom: 27%;
+  }
+
+  .option {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0.76em;
+  }
+
+  .followers {
+    margin: 0;
+  }
+
+  .icon {
+    margin-top: 1em;
+  }
+
+  .period {
+    font-size: 1em;
+  }
+  .num {
+    font-size: 0.87em;
+  }
+
+  .idea-container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .head-tag {
+    text-align: center;
+  }
+
+  .profile-container {
+    padding: 0 4.4em 0;
+  }
+
+  .profile {
+    display: grid;
+    grid-template-columns: 45fr;
+    gap: 3em;
+  }
+
+  .profile-img {
+    margin-bottom: 1em;
+  }
+  .pixz {
+    width: 100%;
+  }
+
+  .profile-text {
+    top: 2%;
+  }
+
+  .authors {
+    margin-bottom: 1em;
+  }
+
+  .comment {
+    font-size: 0.89em;
+    width: 73%;
+    font-weight: 500;
+  }
+
+  .audience {
+    width: 73%;
+    margin-block: 3em;
+  }
+
+  .sub {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  .ideal-right {
+    padding-right: 12em;
+  }
+
+  .right {
+    padding-right: 18em;
+  }
+
+  .sec {
+    padding: 0 6.2em 0;
+  }
+
+  .sec-text {
+    left: 50%;
+  }
+
+  .sec-profile {
+    margin-bottom: 2.1em;
+  }
+
+  .dp {
+    padding: 0;
+    margin-bottom: 4em;
+  }
+
+  .png-1 {
+    display: block;
+    margin: auto;
+    padding-bottom: 1em;
+  }
+
+  .display {
+    text-align: center;
+  }
+
+  .dp-author {
+    margin-bottom: 1em;
+  }
+
+  .dp-list {
+    display: flex;
+    gap: 1em;
+    margin-left: 11em;
+  }
+
+  .handle {
+    margin-bottom: 2em;
+  }
+
+  .btn-container {
+    text-align: center;
+  }
+}

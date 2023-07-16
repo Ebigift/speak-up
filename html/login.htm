@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/speak.css" />
+    <link rel="stylesheet" href="/responsive/general.css" />
+    <title>login</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <span class="logo">Speak</span>
+      <nav class="nav-header">
+        <ul class="nav-menu">
+          <li><a class="menu list" href="/html/speak.htm">Home</a></li>
+          <li><a class="menu" href="/html/dashboard.html">Contact</a></li>
+          <li><a class="menu" href="/html/login.htm">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="form">
+        <h2 class="form-header">new event</h2>
+        <section class="btn-container">
+          <p class="btn">
+            <label class="btn-text" for="image">over-images</label>
+            <br />
+            <input
+              type="text"
+              name="text"
+              id="image"
+              placeholder="Drag file here or upload file"
+              required
+            />
+          </p>
+          <p class="btn">
+            <label class="btn-text" for="title">Title</label>
+            <br />
+            <input
+              type="text"
+              name="text"
+              id="title"
+              required
+              autocomplete="on"
+            />
+          </p>
+          <p class="btn">
+            <label class="btn-text" for="date">Date/time</label>
+            <br />
+            <input
+              type="text"
+              name="text"
+              id="date"
+              required
+              autocomplete="on"
+            />
+          </p>
+          <div class="host">
+            <label class="btn-text" for="text">Host</label>
+            <br />
+            <p class="host-author">
+              <span class="btn-2" type="button">Benjamin</span>
+              <spa class="btn-2" type="button">Simeon</spa>
+            </p>
+          </div>
+
+
+          <p class="text--btn">
+            <label class="btn-text" for="text">Description</label>
+            <br />
+            <textarea
+              class="big-msg"
+              name="text"
+              id="text"
+              cols="30"
+              rows="10"
+              autocomplete="on"
+              placeholder="kindly leave a comment here"
+            ></textarea>
+          </p>
+        </section>
+        <section class="create">
+          <h2 class="summit">create &plus;</h2>
+        </section>
+      </article>
+    </main>
+    <footer class="footer-section">
+      <p class="footer-text">all rights reserved @ 2022</p>
+    </footer>
+  </body>
+</html>

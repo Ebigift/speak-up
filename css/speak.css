@@ -1,0 +1,462 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: #390c8c;
+}
+
+.logo {
+  font-size: 1.2em;
+}
+
+.list {
+  margin-right: 6em;
+}
+
+.menu {
+  text-decoration: none;
+}
+
+.menu:link,
+.menu:visited {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.menu:hover,
+.menu:active {
+  color: #777;
+}
+
+.text-section {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.hero-text {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.wrap {
+  line-height: 1.6;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+
+.mic {
+  margin-top: 2em;
+}
+
+.tag--header {
+  margin: 1em 0.4em;
+}
+
+.img-hero,
+.live-icon,
+.add {
+  position: relative;
+}
+
+.live {
+  margin-left: 19em;
+  width: 9%;
+}
+
+.live-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pladcard {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+}
+
+.option {
+  font-weight: 800;
+  width: 75%;
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
+.followers {
+  list-style: none;
+  margin-top: 2em;
+}
+
+.icon {
+  margin-top: 2em;
+}
+
+.add {
+  position: absolute;
+  width: 50%;
+  text-align: end;
+  bottom: 4%;
+  right: 30%;
+}
+
+.sub {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(123, 146, 245);
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+}
+
+.sub:link,
+.sub:visited {
+  color: #fff;
+}
+
+.sub:hover,
+.sub:active {
+  color: #333;
+}
+.idea,
+.get-hero {
+  margin-bottom: 4em;
+  position: relative;
+}
+
+.idea-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(233, 241, 248, 1);
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 8em;
+}
+
+.left {
+  text-transform: uppercase;
+  color: rgba(71, 93, 189, 1);
+  font-weight: 700;
+  margin-bottom: 0.65em;
+}
+
+.tag {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgba(71, 93, 189, 1);
+  padding-left: 8em;
+}
+
+.ideal-right {
+  text-transform: uppercase;
+  color: rgba(71, 93, 189, 1);
+  font-weight: 700;
+  padding-right: 18em;
+}
+
+.right {
+  color: rgba(71, 93, 189, 1);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.65em;
+  padding-right: 28em;
+}
+
+.line {
+  height: 4em;
+  border: 1px solid rgb(123, 146, 245);
+  margin: 0 2em;
+}
+
+.rule {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 0.5em;
+  margin-right: 3em;
+}
+
+.get-hero {
+  position: absolute;
+  top: 1%;
+  right: 5%;
+}
+
+.Register {
+  font-size: 0.75em;
+  display: block;
+  background-color: rgba(239, 68, 68, 1);
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  padding: 0.86em 3em;
+  border-radius: 0.6em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.profile-img {
+  position: relative;
+}
+
+.head-tag {
+  text-transform: capitalize;
+  margin-top: -3em;
+  padding: 1em;
+}
+.profile-text {
+  position: absolute;
+  top: 9%;
+  right: 0;
+  margin-left: 2em;
+}
+
+.authors {
+  margin-bottom: 2em;
+}
+
+.comment {
+  line-height: 1.6;
+  text-align: justify;
+  width: 40%;
+  font-weight: 500;
+}
+
+.audience {
+  width: 38%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-block: 8em;
+}
+
+.sec-profile {
+  position: relative;
+}
+
+.sec-text {
+  position: absolute;
+  top: 0;
+  left: 42%;
+}
+
+.sec-header {
+  margin-bottom: 0.76em;
+}
+
+.sec-author {
+  list-style: none;
+}
+
+.num-list {
+  margin-bottom: 1.2em;
+}
+
+.num,
+.author {
+  margin-left: 0.56em;
+}
+
+.action {
+  width: 50%;
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: rgba(71, 93, 189, 1);
+  padding: 0.76em;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 0.3em;
+}
+
+.action:link,
+.action:visited {
+  color: rgba(233, 241, 248, 1);
+}
+
+.action:hover,
+.action:active {
+  color: #767676;
+}
+
+.footer-text {
+  text-align: center;
+  padding-block: 4em;
+}
+
+/* dashboard section */
+
+.call,
+.email {
+  text-decoration: none;
+  color: rgba(233, 241, 248, 1);
+}
+
+.call,
+.email:link,
+.call,
+.email:visited {
+  color: #fff;
+}
+
+.email:hover,
+.email:active {
+  text-decoration: underline;
+  color: rgba(71, 93, 189, 1);
+}
+
+.dp {
+  padding: 0 6.2em 0;
+}
+
+.display {
+  margin-bottom: 1.4em;
+}
+
+.dp-list {
+  list-style: none;
+  padding-left: 1em;
+}
+
+.dp-icon {
+  font-size: 1.6em;
+  color: rgba(239, 68, 68, 0.65);
+}
+
+.rule-dp {
+  border: 0.96px solid #777676;
+  margin-bottom: 4em;
+}
+
+/* dashboard-table section */
+
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 0 2.2em 0;
+  margin-bottom: 1em;
+}
+
+.event-text,
+.fill {
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.fill {
+  background-color: rgba(71, 93, 189, 1);
+  padding: 0.76em;
+  border-radius: 10px;
+}
+
+table {
+  margin-bottom: 6em;
+}
+
+table,
+tr,
+th,
+td {
+  border-block-end: 1px solid #390c8c;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table-section {
+  background: rgba(233, 241, 248, 1);
+  color: #475dbd;
+}
+
+.row-text {
+  line-height: 1.6;
+  width: 20%;
+}
+
+.num {
+  font-size: 1.3em;
+}
+
+.chervon-color {
+  border-collapse: separate;
+  padding: 0 1em;
+  background-color: #a3afe5;
+}
+
+/* login section */
+
+.form {
+  margin: 4em 0;
+}
+
+.form-header {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.btn-container {
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 2em;
+}
+
+.btn {
+  margin-bottom: 2em;
+}
+
+input {
+  width: 50%;
+  padding: 2em;
+}
+
+.btn-text {
+  text-transform: capitalize;
+  color: #b9c4f1;
+}
+
+.host-author {
+  display: inline-block;
+  width: 50%;
+  border: 1px solid #777;
+  padding: 1.56em;
+}
+
+.btn-2 {
+  width: 30%;
+  background-color: rgb(157, 110, 245);
+  color: #fff;
+  padding: 1em;
+  border-radius: 5%;
+}
+
+button {
+  border: none;
+}
+
+.text--btn {
+  margin-top: 2em;
+}
+
+textarea {
+  width: 50%;
+}
+
+textarea::placeholder {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.summit {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4em;
+  margin-left: 4em;
+}
