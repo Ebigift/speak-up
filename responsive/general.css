@@ -52,7 +52,7 @@
   }
 
   .sec-text {
-    left: 50%;
+    left: 55%;
   }
 
   .sec-profile {
@@ -175,7 +175,7 @@
   }
 
   .sec-text {
-    left: 47%;
+    left: 50%;
   }
 
   .sec-profile {
@@ -301,9 +301,9 @@
     padding: 0;
   }
 
-  .get-hero {
+  /* .get-hero {
     top: 0.5%;
-  }
+  } */
 
   .profile-container {
     padding: 0 2.2em 0;
@@ -359,7 +359,7 @@
   }
 
   .sec-text {
-    left: 50%;
+    left: 55%;
   }
 
   .sec-profile {
@@ -400,15 +400,10 @@
   }
 }
 
-/* phones users */
+/* phones users  550 /780*/
 @media screen and (max-width: 49em) and (min-width: 34em) {
-  /* 550 /780*/
-  * {
-    outline: 4px solid red;
-  }
-
   .html {
-    font-size: 56.5%;
+    font-size: 50%;
   }
 
   .header {
@@ -419,9 +414,42 @@
   }
 
   .nav-menu {
-    display: flex;
     gap: 4em;
     list-style: none;
+  }
+
+  .btn-nav {
+    display: block;
+  }
+
+  .nav-menu {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .btn-open.nav-menu {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .btn-open.svg-1 {
+    display: block;
+  }
+  .btn-open,
+  .svg-2 {
+    display: none;
   }
 
   .hero {
@@ -432,6 +460,10 @@
 
   .hero img {
     width: 100%;
+  }
+
+  .text-section {
+    margin: 4em;
   }
 
   .section-container {
@@ -548,7 +580,7 @@
   }
 
   .sec-text {
-    left: 50%;
+    left: 55%;
   }
 
   .sec-profile {
@@ -586,5 +618,153 @@
 
   .btn-container {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 34em) and (min-width: 18em) {
+  .html {
+    font-size: 50%;
+  }
+
+  .nav-menu {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    transform: translatey(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .hero {
+    margin: 4em;
+  }
+
+  .hit,
+  .mic {
+    display: none;
+  }
+
+  .tag--header {
+    text-align: center;
+  }
+  .head-tag {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .primary-content {
+    width: 100%;
+  }
+
+  .text-section {
+    margin-bottom: 4em;
+  }
+
+  .idea-container {
+    justify-content: space-around;
+  }
+  .rule {
+    margin-right: 6em;
+  }
+
+  .ideal-right {
+    padding-right: 8em;
+  }
+
+  .right {
+    padding-right: 12em;
+  }
+
+  .left {
+    padding-left: 3em;
+  }
+
+  .get-hero {
+    right: 4%;
+  }
+
+  .pix {
+    display: block;
+    margin: auto;
+    margin: 2.2em;
+  }
+
+  .pladcard {
+    width: 50%;
+    left: 12%;
+  }
+
+  .pixz {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+
+  .profile-text {
+    margin-left: 0.6em;
+    top: 1%;
+    left: 10%;
+    font-size: 0.86em;
+  }
+
+  .authors {
+    margin-bottom: 0.5em;
+  }
+
+  .comment {
+    width: 70%;
+  }
+
+  .audience {
+    width: 77%;
+    margin-block: 1em;
+  }
+  
+  .sec-profile {
+    padding-left: 2em;
+  }
+
+  .sec-text {
+    left: 50%;
+  }
+
+  .btn-container {
+    margin: 2.4em 0;
+  }
+
+  .btn-text,
+  .text--btn,
+  .host {
+    text-align: center;
+    color: #000;
+  }
+
+  .host {
+    padding: 0 2.2em 0;
+  }
+
+  .btn {
+    text-align: center;
+  }
+  .host-author {
+    width: 96%;
+    display: flex;
+    gap: 2em;
+  }
+
+  .btn-2 {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    width: 76%;
   }
 }

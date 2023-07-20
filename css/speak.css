@@ -35,6 +35,23 @@ body {
   color: #777;
 }
 
+.btn-nav{
+  display:  none;
+  border: none;
+  cursor: pointer;
+  background-color: none;
+}
+
+.svg{
+    height: 4.8em;
+    width: 4.8em;
+    stroke: rgba(255, 255, 255, 1);
+}
+
+.svg-2{
+  display: none
+}
+
 .text-section {
   width: 80%;
   margin: auto;
@@ -135,10 +152,14 @@ body {
   position: relative;
 }
 
+.idea{
+
+  background-color: rgba(233, 241, 248, 1);
+}
+
 .idea-container {
   display: flex;
   justify-content: center;
-  background-color: rgba(233, 241, 248, 1);
   text-align: center;
   padding: 1em;
   margin-bottom: 8em;
@@ -188,7 +209,7 @@ body {
 
 .get-hero {
   position: absolute;
-  top: 1%;
+  top: 26%;
   right: 5%;
 }
 
