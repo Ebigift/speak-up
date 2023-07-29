@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-  font-size: 1.2em;
+  font-size: 3em;
 }
 
 .list {
@@ -35,21 +35,21 @@ body {
   color: #777;
 }
 
-.btn-nav{
-  display:  none;
+.btn-nav {
+  display: none;
   border: none;
   cursor: pointer;
   background-color: none;
 }
 
-.svg{
-    height: 4.8em;
-    width: 4.8em;
-    stroke: rgba(255, 255, 255, 1);
+.svg {
+  height: 1.8em;
+  width: 1.8em;
+  stroke: rgba(255, 255, 255, 1);
 }
 
-.svg-2{
-  display: none
+.svg-2 {
+  display: none;
 }
 
 .text-section {
@@ -91,6 +91,7 @@ body {
 }
 
 .live-icon {
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -98,7 +99,7 @@ body {
 
 .pladcard {
   position: absolute;
-  bottom: 40%;
+  bottom: 17%;
   left: 10%;
 }
 
@@ -115,7 +116,7 @@ body {
 }
 
 .icon {
-  margin-top: 2em;
+  margin-top: 0.67em;
 }
 
 .add {
@@ -123,7 +124,7 @@ body {
   width: 50%;
   text-align: end;
   bottom: 4%;
-  right: 30%;
+  right: 0%;
 }
 
 .sub {
@@ -133,7 +134,7 @@ body {
   text-transform: capitalize;
   font-size: 1.2em;
   font-weight: 500;
-  padding: 0.5em 2em;
+  padding: 0.5em 3em;
   border-radius: 5px;
 }
 
@@ -152,8 +153,7 @@ body {
   position: relative;
 }
 
-.idea{
-
+.idea {
   background-color: rgba(233, 241, 248, 1);
 }
 
@@ -166,6 +166,7 @@ body {
 }
 
 .left {
+  font-size: 2em;
   text-transform: uppercase;
   color: rgba(71, 93, 189, 1);
   font-weight: 700;
@@ -173,10 +174,11 @@ body {
 }
 
 .tag {
+  font-size: 1.53em;
   text-transform: uppercase;
   font-weight: 500;
   color: rgba(71, 93, 189, 1);
-  padding-left: 8em;
+  padding-left: 2em;
 }
 
 .ideal-right {
@@ -252,6 +254,10 @@ body {
   font-weight: 500;
 }
 
+.auto {
+  margin-left: -4.2em;
+}
+
 .audience {
   width: 38%;
   display: flex;
@@ -296,7 +302,7 @@ body {
   padding: 0.76em;
   border-radius: 10px;
   text-align: center;
-  margin-top: 0.3em;
+  margin-top: 1.3em;
 }
 
 .action:link,
@@ -407,6 +413,13 @@ td {
   font-size: 1.3em;
 }
 
+.space {
+  margin-left: -3em;
+}
+
+.space-2 {
+  margin-right: -1em;
+}
 .chervon-color {
   border-collapse: separate;
   padding: 0 1em;
